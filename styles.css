@@ -190,6 +190,42 @@ body {
 }
 
 
+@media (max-width: 320px) {
+    #ticket-form, #ticket {
+        width: 90%;
+        padding: 15px;
+    }
+
+    #ticket-form h2, #ticket h2 {
+        font-size: 20px;
+    }
+
+    #ticket-form input, #ticket-form button {
+        font-size: 12px;
+        padding: 8px;
+    }
+
+    #ticket p {
+        font-size: 14px;
+    }
+
+    #ticket svg {
+        width: 80%;
+    }
+
+    #ticket-form button {
+        padding: 8px 16px;
+    }
+
+    #ticket button {
+        padding: 8px 16px;
+    }
+
+    #success-modal p {
+        font-size: 18px;
+        margin-top: 50px;
+    }
+}
 
 
 
